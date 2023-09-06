@@ -7306,7 +7306,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	luxray: {
 		num: 405,
 		name: "Luxray",
-		types: ["Electric", "Dark"],
+		types: ["Electric"],
 		baseStats: {hp: 80, atk: 120, def: 79, spa: 95, spd: 79, spe: 70},
 		abilities: {0: "Rivalry", 1: "Intimidate", H: "Guts"},
 		heightm: 1.4,
@@ -19313,4 +19313,15 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Undiscovered"],
 		gen: 5,
 	},
+	gladiaster: {
+		num: -6000,
+		name: "Gladiaster",
+		types: ["Steel", "Ice"],
+		gender: "N",
+		baseStats: {hp: 118, atk: 110, def: 79, spa: 119, spd: 69, spe: 105},
+		abilities: {0: "Rock Head", 1: "Drought", H: "Unaware"},
+		heightm: 2.2,
+		weightkg: 800,
+		color: "White",
+		eggGroups: ["Undiscovered"],
 };
