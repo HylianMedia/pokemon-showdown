@@ -6218,7 +6218,6 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	gladiaster: {
-		isNonstandard: "Custom",
 		tier: "OU",
 	},
 };
